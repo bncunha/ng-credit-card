@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-ui-credit-card": [
+        "dist/ngx-ui-credit-card"
+      ],
+      "ngx-ui-credit-card/*": [
+        "dist/ngx-ui-credit-card/*"
+      ]
+    }
   }
 }

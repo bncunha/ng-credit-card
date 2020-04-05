@@ -1,0 +1,18 @@
+<button (click)="toggleCard()"> RODAR </button>
+
+<div class="cc-wrapper front-card" *ngIf="showFront" [@rotateCard]>
+  <div class="cc-background-overlay"></div>
+  <img src="/assets/cc-chip.png" class="chip-img"/>
+  <img src="/assets/bands/visa.png" class="band-img"/>
+  <span class="number-item"> 5145 4342 5896 9951 </span>
+  <span class="valid-date"> 05/27 </span>
+  <span class="name-item"> BRUNO DA SILVA CUNHA </span>
+</div>
+
+<div class="cc-wrapper back-card"  *ngIf="showBackward" [@rotateCard]>
+  <div class="cc-background-overlay"></div>
+  <div class="black-bar"></div>
+  <div class="white-bar">
+    <span class="cvv-text"> 322 </span>
+  </div>
+</div>
